@@ -22,7 +22,7 @@ pip install matplotlib numpy pylzma ipykernel jupyter pickle
 [https://pytorch.org/get-started/locally/]
 
 
-### Prompt the model
+### Run the Chatbot CLI
 
 ```shell
 python chatbot.py
