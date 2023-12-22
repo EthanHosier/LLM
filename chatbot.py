@@ -191,7 +191,7 @@ m = model.to(device) #push to GPU
 
 
 while True:
-    prompt = input("Prompt:\n")
+    prompt = input("\nPrompt:\n")
     context = torch.tensor(encode(prompt), dtype=torch.long, device=device)
-    generated_chars = decode(m.generate(context.unsqueeze(0), max_new_tokens=block_size - len(prompt))[0].tolist())
+    generated_chars = decode(m.generate(context.unsqueeze(0), max_new_tokens=block_size - len(prompt))[0].tolist()) #max_new_tokens must be a maximum of blocksize
     print(f'Completion:\n{generated_chars}')
