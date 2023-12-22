@@ -1,4 +1,4 @@
-# Large Language Model: Python, Pytorch, Jupyter Notebooks
+# Large Language Model (GPT): Python, Pytorch, Jupyter Notebooks
 
 Key Features:
 - Large language model from scratch using
@@ -21,8 +21,6 @@ pip install matplotlib numpy pylzma ipykernel jupyter pickle
 ### Install Pytorch
 [https://pytorch.org/get-started/locally/]
 
-
-```
 
 ### Prompt the model
 
