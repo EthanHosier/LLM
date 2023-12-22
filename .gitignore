@@ -2,5 +2,6 @@ output_train.txt
 output_val.txt
 vocab.txt
 openwebtext/
+model-01.pkl
 
 
