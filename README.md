@@ -1,4 +1,4 @@
-# Large Language Model (GPT): Python, Pytorch, Jupyter Notebooks
+# Large Language Model (GPT): Python, Pytorch, Jupyter Notebook
 
 Key Features:
 - Large language model from scratch using
