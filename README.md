@@ -1,7 +1,7 @@
 # Large Language Model (GPT): Python, Pytorch, Jupyter Notebook
 
 Key Features:
-- Large language model from scratch using
+- Large language model from scratch using Python, Pytorch, Jupyter Notebook
 - Trained on the OpenWebText dataset
 - Capable of generating human-like text using next token prediction
 - CLI for prompting the model
