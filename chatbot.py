@@ -1,8 +1,6 @@
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
-import mmap
-import random
 import pickle
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -28,9 +26,6 @@ string_to_int = { ch:i for i, ch in enumerate(chars) }
 int_to_string = { i:ch for i, ch in enumerate(chars) }
 encode = lambda s: [string_to_int[c] for c in s]
 decode = lambda l: "".join([int_to_string[i] for i in l])
-
-
-
 
 class Head(nn.Module):
     """ one head of self-attention """
