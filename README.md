@@ -9,7 +9,7 @@ Key Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/EthanHosier/Trello-clone.git
+git clone https://github.com/EthanHosier/LLM.git
 ```
 
 ### Install packages
